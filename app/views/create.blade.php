@@ -20,6 +20,11 @@
 			$("#paster").submit();
 			return false;
 		});
+
+		KeyboardJS.on('command + s', function() {
+    		$("#paster").submit();
+    		return false;
+		});
 	});
 	</script>
 @stop

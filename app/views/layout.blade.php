@@ -54,6 +54,7 @@
 	{{ HTML::script('js/prettify.js') }}
 	{{ HTML::script('js/tabby.js') }}
 	{{ HTML::script('js/script.js') }}
+	{{ HTML::script('js/keyboard.js') }}
 	@yield('scripts')
 </body>
 </html>
